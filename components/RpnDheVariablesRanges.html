@@ -1,0 +1,43 @@
+<div id="form" class="w3-indigo w3-card-4">
+  <form action="ranges" method="POST" class="w3-container">
+
+    <p>
+      <label for="expression">Insert an expression to evaluate</label>
+      <input name="expression" id="expression" size="100" value="3x+1" class="w3-input">
+    </p>
+    <p>
+      x variable value:
+      <label for="min_x">Min</label>
+      <input name="min_x" id="min_x" size="6" value="0">
+      <label for="max_x">Max</label>
+      <input name="max_x" id="max_x" size="6" value="10">
+    </p>
+    <p>
+      y variable value:
+      <label for="min_y">Min</label>
+      <input name="min_y" id="min_y" size="6" value="0">
+      <label for="max_y">Max</label>
+      <input name="max_y" id="max_y" size="6" value="0">
+    </p>
+    <p>
+      z variable value:
+      <label for="min_z">Min</label>
+      <input name="min_z" id="min_z" size="6" value="0">
+      <label for="max_z">Max</label>
+      <input name="max_z" id="max_z" size="6" value="0">
+    </p>
+    <p>
+      <label for="steps">Number of steps</label>
+      <input name="steps" id="steps" size="6" value="11">
+    </p>
+    <p>
+      <input name="no_log" id="no_log" class="w3-check" type="checkbox">
+      <label for="no_log">Exclude processing logs from result</label>
+    </p>
+
+    <p>
+      <button type="submit">Evaluate !</button>
+    </p>
+  </form>
+
+</div>

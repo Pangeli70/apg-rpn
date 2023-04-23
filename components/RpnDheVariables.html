@@ -1,0 +1,30 @@
+<div id="form" class="w3-indigo w3-card-4">
+  <form action="variables" method="POST" class="w3-container">
+
+    <p>
+      <label for="expression">Insert an expression to evaluate</label>
+      <input name="expression" id="expression" size="100" value="3x+1*z/y" class="w3-input">
+    </p>
+    <p>
+      <label for="x_variables">Insert a list of values for x variable (separated by comma)</label>
+      <input name="x_variables" id="x_variables" size="100" value="-5,-2,-1,0,1,2,5" class="w3-input">
+    </p>
+    <p>
+      <label for="y_variables">Insert a list of values for y variable (separated by comma)</label>
+      <input name="y_variables" id="y_variables" size="100" value="1,2,3,4,5,6,7" class="w3-input">
+    </p>
+    <p>
+      <label for="z_variables">Insert a list of values for z variable (separated by comma)</label>
+      <input name="z_variables" id="z_variables" size="100" value="6,5,4,3,2,1,0" class="w3-input">
+    </p>
+    <p>
+      <input name="no_log" id="no_log" class="w3-check" type="checkbox">
+      <label for="no_log">Exclude processing logs from result</label>
+    </p>
+
+    <p>
+      <button type="submit">Evaluate !</button>
+    </p>
+  </form>
+
+</div>
